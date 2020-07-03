@@ -1,0 +1,96 @@
+.container {
+    display: inline-block;
+    background-color: aqua;
+    width: 100%;
+    padding: 25px;
+    
+    }
+    #lol {
+        background-color: red;
+        display: none;
+    }
+
+    .container > .zx {
+        margin-top: 50px;
+        
+       
+    }
+
+    .hero-cont {
+        display: inline-block;
+        background-color:red;
+        width: 800px;
+        padding: 20px;
+        margin: 0 calc(50% - 400px);
+
+    }   
+    .content {
+        display: inline-block;
+        background-color: green;
+        padding: 20px;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+
+    }
+
+    /* @media (max-width: 1500px){
+        .content {
+            background-color: royalblue;
+            width: 800px;
+            margin: 0 calc(50% - 400px);
+            padding: 10px;
+        }
+    } */
+
+    @media (max-width: 1000px){
+        .container{
+            background-color: orchid;
+        }
+        .content {
+            background-color: orange;
+            width: 600px;
+            margin: 0 calc(50% - 300px);
+            padding: 30px;
+        }
+        .hero-cont {
+            width: 500px;
+            margin: 0 calc(50% - 250px)
+        }
+
+    }
+
+    @media (max-width: 630px){
+        .container {
+            background-color: white;
+            padding: 40px;
+            width: 200px;
+            margin: 0 calc(50% - 100PX);
+        }
+        .content {
+            width: 300PX;
+            margin: 0 calc(50% - 150px);
+        }
+        .hero-cont  {
+            width: 300px;
+            margin: 0 calc(50% - 150px);
+        }
+    }
+
+    @media (max-width: 300px){
+        .container {
+            display: none;
+        }
+        #lol {
+            display: initial;
+            
+            
+        }
+        #lol > p {
+            padding: 30px;
+            font-size: 30px;
+            background-color: red;
+        }
+
+
+    }
+
